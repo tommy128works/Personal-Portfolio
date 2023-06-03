@@ -1,5 +1,5 @@
 function ContactMe() {
-  return <div className="App">CONTACT ME -- Nothing implemented.</div>;
+  return <div>CONTACT ME -- Nothing implemented.</div>;
 }
 
 export default ContactMe;
