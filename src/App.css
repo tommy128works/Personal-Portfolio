@@ -13,6 +13,17 @@
   justify-content: center;
 }
 
+.contact-me-image {
+  width: 200px;
+  height: auto;
+}
+
+.contact-me {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .wrap {
   display: flex;
   flex-wrap: wrap;
@@ -37,6 +48,10 @@
 
 @media (max-width: 600px) {
   .about-me {
+    flex-wrap: wrap;
+  }
+
+  .contact-me {
     flex-wrap: wrap;
   }
 
