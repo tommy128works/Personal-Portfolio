@@ -1,7 +1,7 @@
 import "./App.css";
 import NavigationHeader from "./NavigationHeader";
 import AboutMe from "./AboutMe";
-import Projects from "./Projects";
+import ProjectGallery from "./ProjectGallery";
 import ContactMe from "./ContactMe";
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <NavigationHeader>{/* Insert NavigationLinks here */}</NavigationHeader>
       <AboutMe></AboutMe>
-      <Projects></Projects>
+      <ProjectGallery></ProjectGallery>
       <ContactMe></ContactMe>
     </div>
   );

@@ -1,8 +1,9 @@
 function AboutMe() {
   return (
-    <div className="center">
+    <div className="about-me">
       <span>
         <img
+          className="about-me-image"
           src={require("./images/placeholder_profile.jpg")}
           alt="Tommy Tran"
         />
