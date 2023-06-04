@@ -1,9 +1,16 @@
+body {
+  background-image: url("./images/space-background.jpg");
+  background-position: center;
+  background-size: cover;
+  color: white;
+ }
+
 .App {
   text-align: center;
 }
 
 .about-me-image {
-  width: 200px;
+  max-width: 20vw;
   height: auto;
 }
 
