@@ -1,23 +1,35 @@
 body {
-  background-image: url("./images/space-background.jpg");
+  background-image: url("./images/background_red.jpeg");
   background-position: center;
   background-size: cover;
-  color: white;
+  color: #1533AD;
+  background-color: #cccccc;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 250%;
  }
-
-.App {
-  text-align: center;
-}
-
-.about-me-image {
-  max-width: 20vw;
-  height: auto;
-}
 
 .about-me {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  background-color: rgba(255, 0, 0, 0.509);
+  border-radius: 5em;
+  margin: 5vw;
+}
+
+.about-me-image {
+  max-width: 20vw;
+  height: auto;
+  margin: 3vw;
+}
+
+.about-me-desc {
+  padding: 5vw;
+  font-size: 2em;
+}
+
+.highlight {
+
 }
 
 .contact-me-image {
@@ -29,6 +41,10 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  background-color: rgba(255, 255, 255, 0.509);
+  border-radius: 5em;
+  margin: 5vw;
+  padding: 5vw;
 }
 
 .wrap {
